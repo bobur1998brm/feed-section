@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Profile</title>
+    <link rel="stylesheet" href="feed.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- header start -->
+    <header>
+        <div class="header__logo">
+            <img class="header__logoImage" src="./assets/logo.svg"
+                alt="This is logo of Linked In platform illustrated I N letters">
+        </div>
+        <ul class="header__collection">
+            <li class="header__collectionItem">
+                <a class="header__collectionLink" href="#">
+                    <img class="header__collectionImage" src="./assets/rss.svg"
+                        alt="This is three curved lines like wi-fi">
+                    <span>FEED</span>
+                </a>
+            </li>
+            <li class="header__collectionItem">
+                <a class="header__collectionLink" href="#">
+                    <img class="header__collectionImage" src="./assets/users.svg"
+                        alt="Group of people symbol">
+                    <span>NETWORK</span>
+                </a>
+            </li>
+            <li class="header__collectionItem">
+                <a class="header__collectionLink" href="#">
+                    <img class="header__collectionImage" src="./assets/briefcase.svg"
+                        alt="Briefcase illustration">
+                    <span>JOBS</span>
+                </a>
+            </li>
+            <li class="header__collectionItem">
+                <a class="header__collectionLink" href="#">
+                    <img class="header__collectionImage" src="./assets/message-square.svg"
+                        alt="Square chat with badge">
+                    <span>CHATS</span>
+                </a>
+            </li>
+            <li class="header__collectionItem">
+                <a class="header__collectionLink" href="#">
+                    <img class="header__collectionImage" src="./assets/bell.svg"
+                        alt="Bell icon with badge">
+                    <span>NOTICES</span>
+                </a>
+            </li>
+        </ul>
+        <div class="header__searchbar">
+            <img class="header__searchbarImage" src="./assets/search.svg" alt="Search magnifier illustration">
+            <input type="text" placeholder="Search" id="header__search" class="header__search">
+        </div>
+        <div class="header__profile">
+            <div class="header__avatar"></div>
+            <div class="header__profileInfo">
+                <div class="header__profileWhose">
+                    <span class="header__profileName">JOHN DOE</span>
+                    <span class="header__profileWho">YOU</span>
+                </div>
+                <div class="header__profileStatus">
+                    <span class="header__profileViews">367 views today</span>
+                    <span class="header__profileProgress">+32</span>
+                </div>
+            </div>
+        </div>
+        <div class="header__otherOptions">
+            <img src="./assets/more-horizontal.svg" alt="Three dots for more options">
+            <span>OTHER</span>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <section>
+        <div class="container">
+            <!-- main content start -->
+            <div class="main__content">
+                <!-- left content start -->
+                <div class="left__content">
+                    <!-- new post start -->
+                    <div class="new__post">
+                        <p class="new__post__p">NEW POST</p>
+                        <div class="hr__lead"></div>
+                        <div class="new__post__bottom">
+                            <h3 class="new__post__h3">What's on your mind?</h3>
+                            <div class="new__post__icons">
+                                <img src="assets/new__post/paperclip.svg" alt="paperclip">
+                                <img src="assets/new__post/image.svg" alt="image">
+                                <img src="assets/new__post/film.svg" alt="film">
+                                <img src="assets/new__post/telegram.svg" alt="telegram">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- new post end -->
+
+                    
+
+                    <div class="sort__by">
+                        <div class="hr__leader"></div>
+                        <p class="sort__by__text">SORT BY: <span>TRENDING </span><img src="assets/new__post/Vector.svg" alt="Down"></p>
+                        <div class="hr__leader"></div>
+                    </div>
+
+
+                    <!-- first message start  -->
+                    <div class="message">
+                        <div class="message__title">
+                            <p class="message__title__p"><a href="#" class="message__title__link">Ted Bell</a>, <a href="#" class="message__title__link">Annette Nguyen</a> and <a href="#" class="message__title__link">Cody Hawkins</a> liked this</p>
+                            <img class="message__menu" src="assets/message/more-horizontal.svg" alt="horizontal">
+                        </div>
+                        <div class="hr__lead"></div>
+                        <div class="message__body">
+                            <div class="message__user">
+                                <div class="message__user__image">
+                                    <img src="assets/message/Photo.png" alt="User">
+                                </div>
+                                <div class="message__user__name">
+                                    <h3>Theresa Steward</h3>
+                                    <p>iOS developer</p>
+                                </div>
+                            </div>
+                            <div class="message__content">
+                                <p>What did the Dursleys care if Harry lost his place on the House Quidditch team because he hadn’t practiced all summer? What was it to the Dursleys if Harry went back to school without any of his homework done? The Dursleys were what wizards called Muggles (not a drop of magical blood in their veins).</p>
+                            </div>
+                            <h3 class="read__more">READ MORE</h3>
+                        </div>
+                        <div class="hr__lead"></div>
+                        <div class="message__footer">
+                            <div class="message__footer__left">
+                                <div  class="message__like1">
+                                    <img class="thumbs-up-fill" src="assets/message/thumbs-up-fill.svg" alt="thumbs-up-fill">
+                                    <img class="thumbs-up" src="assets/message/thumbs-up.svg" alt="thumbs-up">
+                                    <p class="message__count">42</p>
+                                </div>
+                                <div class="message__like">
+                                    <img src="assets/message/message-circle.svg" alt="message-circle">
+                                    <p class="message__count">9</p>
+                                </div>
+                            </div>
+                            <div class="message__footer__right">
+                                <div class="message__share">
+                                    <img src="assets/message/share-2.svg" alt="share">
+                                    <p>SHARE</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="message__hideScreen menu__hide">
+                            <p>Add account</p>
+                            <p>Edit profile</p>
+                            <p>Log out</p>
+                        </div>
+                    </div>
+                    <!-- first message end -->
+
+                    <!-- second message start  -->
+                    <div class="message">
+                        <div class="message__title">
+                            <p class="message__title__p"><a href="#" class="message__title__link">Audrey Alexander</a> comment this</p>
+                            <img class="message__menu" src="assets/message/more-horizontal.svg" alt="horizontal">
+                        </div>
+                        <div class="hr__lead"></div>
+                        <div class="message__body">
+                            <div class="message__user">
+                                <div class="message__user__image">
+                                    <img src="assets/message/user2.png" alt="User">
+                                </div>
+                                <div class="message__user__name">
+                                    <h3>Kyle Fisher</h3>
+                                    <p>Product designer at Commandor Corp.</p>
+                                </div>
+                            </div>
+                            <div class="message__content">
+                               <p>How’s your day going, guys?</p>
+                               <img src="assets/message/Rectangle 3.png" alt="">
+                            </div>
+                           
+                        </div>
+                        <div class="hr__lead"></div>
+                        <div class="message__footer">
+                            <div class="message__footer__left">
+                                <div  class="message__like1">
+                                    <img class="thumbs-up-fill" src="assets/message/thumbs-up-fill.svg" alt="thumbs-up-fill">
+                                    <img class="thumbs-up" src="assets/message/thumbs-up.svg" alt="thumbs-up">
+                                    <p class="message__count">42</p>
+                                </div>
+                                <div class="message__like">
+                                    <img src="assets/message/message-circle.svg" alt="message-circle">
+                                    <p class="message__count">9</p>
+                                </div>
+                            </div>
+                            <div class="message__footer__right">
+                                <div class="message__share">
+                                    <img src="assets/message/share-2.svg" alt="share">
+                                    <p>SHARE</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="message__hideScreen menu__hide">
+                            <p>Add account</p>
+                            <p>Edit profile</p>
+                            <p>Log out</p>
+                        </div>
+                    </div>
+                    <!-- second message start  -->
+
+                    <!-- third message start  -->
+                    <div class="message">
+                        <div class="message__title">
+                            <p class="message__title__p">High rated post from your feed</p>
+                            <img  class="message__menu" src="assets/message/more-horizontal.svg" alt="horizontal">
+                        </div>
+                        <div class="hr__lead"></div>
+                        <div class="message__body">
+                            <div class="message__user">
+                                <div class="message__user__image">
+                                    <img src="assets/message/user3.png" alt="User">
+                                </div>
+                                <div class="message__user__name">
+                                    <h3>Brandon Wilson</h3>
+                                    <p>Senior UX designer</p>
+                                </div>
+                            </div>
+                            <div class="message__content">
+                                <p>There is some new guidelines for iOS</p>
+                                <div class="message__cloud">
+                                    <div class="cloud__left">
+                                        <div class="cloud__img">
+                                            <img src="assets/message/text.svg" alt="cloud">
+                                        </div>
+                                        <div class="cloud__title">
+                                            <h3>iOS 11 guidelines for UX/UI designers</h3>
+                                            <p>PDF file, 324 kb</p>
+                                        </div>
+                                    </div>
+                                    <div class="cloud__right">
+                                        <img src="assets/message/download-cloud.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="message__cloud">
+                                    <div class="cloud__left">
+                                        <div class="cloud__img">
+                                            <img src="assets/message/text.svg" alt="cloud">
+                                        </div>
+                                        <div class="cloud__title">
+                                            <h3>iOS 11 guidelines for developers</h3>
+                                            <p>PDF file, 245 kb</p>
+                                        </div>
+                                    </div>
+                                    <div class="cloud__right">
+                                        <img src="assets/message/download-cloud.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hr__lead"></div>
+                        <div class="message__footer">
+                            <div class="message__footer__left">
+                                <div class="message__like">
+                                    <img src="assets/message/thumbs-up.svg" alt="thumbs-up">
+                                    <p class="message__count">42</p>
+                                </div>
+                                <div class="message__like">
+                                    <img src="assets/message/message-circle.svg" alt="message-circle">
+                                    <p class="message__count">9</p>
+                                </div>
+                            </div>
+                            <div class="message__footer__right">
+                                <div class="message__share">
+                                    <img src="assets/message/share-2.svg" alt="share">
+                                    <p>SHARE</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="message__hideScreen menu__hide">
+                            <p>Add account</p>
+                            <p>Edit profile</p>
+                            <p>Log out</p>
+                        </div>
+                    </div>
+                    <!-- third message end  -->
+
+                    <!-- fourth message start -->
+                    <div class="message">
+                        <div class="message__title">
+                            <p class="message__title__p">First post from <a href="#" class="message__title__link"> Audrey Alexander</a></p>
+                            <img class="message__menu" src="assets/message/more-horizontal.svg" alt="horizontal">
+                        </div>
+                        <div class="hr__lead"></div>
+                        <div class="message__body">
+                            <div class="message__user">
+                                <div class="message__user__image">
+                                    <img src="assets/message/user4.png" alt="User">
+                                </div>
+                                <div class="message__user__name">
+                                    <h3>Audrey Alexander</h3>
+                                    <p>Team lead at Google</p>
+                                </div>
+                            </div>
+                            <div class="message__content">
+                                <p>The bun runs along the road and meets a wolf. «Little bun, little bun, I want to eat you!» says the wolf. «I ran away from Grandfather, I ran away from Grandmother, I ran away from the hare. And I can run away from you, grey wolf!» says the bun and runs away.</p>
+                            </div>
+                        </div>
+                        <div class="hr__lead"></div>
+                        <div class="message__footer">
+                            <div class="message__footer__left">
+                                <div class="message__like">
+                                    <img src="assets/message/thumbs-up.svg" alt="thumbs-up">
+                                    <p class="message__count">42</p>
+                                </div>
+                                <div class="message__like">
+                                    <img src="assets/message/message-circle.svg" alt="message-circle">
+                                    <p class="message__count">9</p>
+                                </div>
+                            </div>
+                            <div class="message__footer__right">
+                                <div class="message__share">
+                                    <img src="assets/message/share-2.svg" alt="share">
+                                    <p>SHARE</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="message__hideScreen menu__hide">
+                            <p>Add account</p>
+                            <p>Edit profile</p>
+                            <p>Log out</p>
+                        </div>
+                    </div>
+                    <!-- fourth message end -->
+                </div>
+                <!-- left content end -->
+
+                <!-- right content start -->
+                <div class="right__content">
+                    <!-- user profile start -->
+                    <div class="feed__user__profile">
+                        <div class="feed__user__profile__image">
+                            <img src="assets/left__content/Rectangle 3.png" alt="Rectangle">
+                            <img class="user__profile__image" src="assets/left__content/Ellipse.png" alt="">
+                        </div>
+                        <div class="feed__user__profile__text">
+                            <h3>Dmitry Kargaev <img src="assets/left__content/Logo.svg" alt="in"></h3>
+                            <p>Freelance UX/UI designer, 80+ projects in web design, mobile apps (iOS & android) and creative projects. Open to offers.</p>
+                        </div>
+                    </div>
+                    <!-- user profile end -->
+                    <div class="feed__button">
+                        <button>WRITE NEW ARTICLE</button>
+                    </div>
+
+                    <!-- my groups start -->
+                    <div class="feed__my__groups">
+                        <div class="feed__my__groups__title">
+                            <p>MY GROUPS</p>
+                            <a href="#">EDIT LIST</a>
+                        </div>
+                        <div class="hr__lead"></div>
+                        <div class="feed__my__groups__content">
+                            <div class="feed__my__groups__items">
+                                <img src="assets/left__content/Rectangle 2.2.png" alt="Moskov">
+                                <p>Moscow State Linguistical University</p>
+                            </div>
+                            <div class="feed__my__groups__items">
+                                <img src="assets/left__content/Rectangle 2.2 (1).png" alt="Moskov">
+                                <p>Digital freelancers group</p>
+                            </div>
+                            <div class="feed__my__groups__items">
+                                <img src="assets/left__content/Rectangle 2.2 (2).png" alt="Moskov">
+                                <p>Interaction design association</p>
+                            </div>
+                        </div>
+                        <div class="feed__my__groups__footer">
+                            <p>SHOW ALL (8)</p>
+                        </div>
+                    </div>
+                    <!-- my groups end -->
+
+                    <!-- followed hashtegs start -->
+                    <div class="feed__followed">
+                        <div class="feed__followed__title">
+                            <p>Followed hashtags</p>
+                        </div>
+                        <div class="hr__lead"></div>
+                        <div class="feed__followed__form">
+                            <form id="followed__form">
+                                <input type="text" id="followed__text" placeholder="Search">
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                        <p id="clear">Clear</p>
+                        <div class="hr__lead"></div>
+                        <div class="feed__followed__area">
+                        
+                        </div>
+                    </div>
+                    <!-- followed hashtegs start -->
+
+
+                    <!-- trendind articles start -->
+                    <div class="feed__my__groups">
+                        <div class="feed__my__groups__title">
+                            <p>TRENDING ARTICLES</p>
+                        </div>
+                        <div class="hr__lead"></div>
+                        <div class="feed__my__groups__content">
+                            <div class="feed__tranding__items">
+                                <img src="assets/left__content/trending 1.png" alt="Moskov">
+                                <div>
+                                    <h3>How I make cool designs?</h3>
+                                    <p>6,340 viewers</p>
+                                </div>
+                            </div>
+                            <div class="feed__tranding__items">
+                                <img src="assets/left__content/trending 2.png" alt="Moskov">
+                                <div>
+                                    <h3>Advices for young HR-manage</h3>
+                                    <p>6,340 viewers</p>
+                                </div>
+                            </div>
+                            <div class="feed__tranding__items">
+                                <img src="assets/left__content/trending 3.png" alt="Moskov">
+                                <div>
+                                    <h3>A little about usability testing</h3>
+                                    <p>6,340 viewers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- trendind articles end -->
+                </div>
+                <!-- right content end -->
+            </div>
+            <!-- main content end -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="feed__footer__grid">
+                <div class="feed__footer__grid__logo">
+                    <img src="assets/logo.svg" alt="logo">
+                    <p>Linked<span>In</span></p>
+                </div>
+                <div class="feed__footer__grid__link">
+                    <p>Navigation</p>
+                    <a href="#">About</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Advertising</a>
+                    <a href="#">Small Business</a>
+                </div>
+                <div class="feed__footer__grid__link">
+                    <p class="space"></p>
+                    <a href="#">Talent Solutions</a>
+                    <a href="#">Marketing Solutions</a>
+                    <a href="#">Sales Solutions </a>
+                    <a href="#">Safery Center</a>
+                </div>
+                <div class="feed__footer__grid__link">
+                    <p class="space"></p>
+                    <a href="#">Community Guidelines </a>
+                    <a href="#"> Privacy & Terms</a>
+                    <a href="#">Mobile App</a>
+                </div>
+                <div class="feed__footer__grid__link">
+                    <p>Fast access</p>
+                    <button class="footer__btn__help"><span>QUESTIONS?</span> <img src="assets/help-circle.svg" alt="help"></button>
+                    <button class="footer__btn__setting"><span>SETTINGS</span> <img src="assets/settings.svg" alt="settings"></button>
+                </div>
+                <div class="feed__footer__grid__link">
+                    <p>Language</p>
+                    <select name="" id="">
+                        <option value="eng">ENGLISH</option>
+                        <option value="eng">UK</option>
+                        <option value="eng">UZBEKISTAN</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="share__screen">
+        <div class="share__screen__content">
+            <div class="share__title">
+                <p>SHARE</p>
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="hr__leader"></div>
+            <div class="share__icons">
+               <i class="fab fa-linkedin"></i>
+               <i class="fab fa-facebook"></i>
+               <i class="fab fa-youtube"></i>
+               <i class="fab fa-instagram"></i>
+            </div>
+            <p class="brm">B R M</p>
+        </div>
+    </div>
+
+    <script src="feed.js"></script>
+</body>
+
+</html>
